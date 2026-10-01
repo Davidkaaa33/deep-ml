@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:59:06.122Z",
+  "generated_at": "2026-10-01T10:01:19.307Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -63,6 +63,19 @@
       "path": "problems/0076-calculate-cosine-similarity-between-vectors",
       "first_solved_at": "2026-10-01T09:58:11.586Z",
       "last_pushed_at": "2026-10-01T09:59:04.939Z",
+      "language": "python",
+      "lines": 5
+    },
+    "problem:22": {
+      "kind": "problem",
+      "id": "22",
+      "title": "Sigmoid Activation Function Understanding",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/22",
+      "path": "problems/0022-sigmoid-activation-function-understanding",
+      "first_solved_at": "2026-10-01T10:01:18.455Z",
+      "last_pushed_at": "2026-10-01T10:01:18.455Z",
       "language": "python",
       "lines": 5
     }
