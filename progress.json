@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:40:40.760Z",
+  "generated_at": "2026-10-01T11:47:08.765Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -101,9 +101,9 @@
       "url": "https://www.deep-ml.com/problems/24",
       "path": "problems/0024-single-neuron",
       "first_solved_at": "2026-10-01T11:39:37.849Z",
-      "last_pushed_at": "2026-10-01T11:40:39.917Z",
+      "last_pushed_at": "2026-10-01T11:47:07.978Z",
       "language": "python",
-      "lines": 12
+      "lines": 14
     }
   }
 }
