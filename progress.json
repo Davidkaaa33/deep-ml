@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:41:00.772Z",
+  "generated_at": "2026-10-03T22:48:52.381Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -166,7 +166,7 @@
       "url": "https://www.deep-ml.com/problems/50",
       "path": "problems/0050-implement-lasso-regression-using-ista",
       "first_solved_at": "2026-10-03T21:41:00.040Z",
-      "last_pushed_at": "2026-10-03T21:41:00.040Z",
+      "last_pushed_at": "2026-10-03T22:48:51.655Z",
       "language": "python",
       "lines": 21
     }
