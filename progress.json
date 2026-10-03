@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:47:08.765Z",
+  "generated_at": "2026-10-03T09:57:49.460Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -102,6 +102,19 @@
       "path": "problems/0024-single-neuron",
       "first_solved_at": "2026-10-01T11:39:37.849Z",
       "last_pushed_at": "2026-10-01T11:47:07.978Z",
+      "language": "python",
+      "lines": 14
+    },
+    "problem:15": {
+      "kind": "problem",
+      "id": "15",
+      "title": "Linear Regression Using Gradient Descent",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/15",
+      "path": "problems/0015-linear-regression-using-gradient-descent",
+      "first_solved_at": "2026-10-03T09:57:48.798Z",
+      "last_pushed_at": "2026-10-03T09:57:48.798Z",
       "language": "python",
       "lines": 14
     }
