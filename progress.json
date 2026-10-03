@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:00:11.374Z",
+  "generated_at": "2026-10-03T11:12:03.730Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -141,6 +141,19 @@
       "path": "problems/0014-linear-regression-using-normal-equation",
       "first_solved_at": "2026-10-03T11:00:10.583Z",
       "last_pushed_at": "2026-10-03T11:00:10.583Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:104": {
+      "kind": "problem",
+      "id": "104",
+      "title": "Binary Classification with Logistic Regression",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/104",
+      "path": "problems/0104-binary-classification-with-logistic-regression",
+      "first_solved_at": "2026-10-03T11:12:02.935Z",
+      "last_pushed_at": "2026-10-03T11:12:02.935Z",
       "language": "python",
       "lines": 7
     }
