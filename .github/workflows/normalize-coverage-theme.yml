@@ -1,0 +1,45 @@
+name: Normalize coverage theme
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "coverage.svg"
+
+permissions:
+  contents: write
+
+jobs:
+  dark-theme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Normalize coverage.svg to GitHub Dark
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("coverage.svg")
+          text = path.read_text(encoding="utf-8")
+
+          dark_style = """<style>
+            .bg{fill:#0d1117}.tx{fill:#e6edf3}.dim{fill:#7d8590}.none{fill:#21262d}
+            .e{fill:#3fb950}.m{fill:#d29922}.h{fill:#f85149}.u{fill:#484f58}
+          </style>"""
+
+          updated = re.sub(r"<style>.*?</style>", dark_style, text, count=1, flags=re.S)
+          path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Commit only when the generated theme changed
+        run: |
+          if git diff --quiet -- coverage.svg; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add coverage.svg
+          git commit -m "Keep coverage grid in dark theme"
+          git push
