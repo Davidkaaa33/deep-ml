@@ -55,6 +55,11 @@ jobs:
           if "## How I practice" not in text and "## Problems" in text:
               text = text.replace("## Problems", practice + "## Problems", 1)
 
+          text = re.sub(
+              r"(\*\*\d+\*\* solved · \d+ problems)(?: · 0 labs)?(?: · 0 math)?",
+              r"\1",
+              text,
+          )
           text = text.replace("| easy |", "| Easy |")
           text = text.replace("| medium |", "| Medium |")
           text = text.replace("| hard |", "| Hard |")
