@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="375" viewBox="0 0 880 375" role="img" aria-label="Deep-ML coverage: 15 of 1516 problems solved">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="375" viewBox="0 0 880 375" role="img" aria-label="Deep-ML coverage: 15 of 1540 problems solved">
 <style>
-      .bg{fill:#0d1117}.tx{fill:#e6edf3}.dim{fill:#7d8590}.none{fill:#21262d}
-      .e{fill:#3fb950}.m{fill:#d29922}.h{fill:#f85149}.u{fill:#484f58}
-    </style>
+  .bg{fill:#ffffff}.tx{fill:#18181b}.dim{fill:#71717a}.none{fill:#e4e4e7}
+  .e{fill:#15a349}.m{fill:#d08700}.h{fill:#dc2626}.u{fill:#a1a1aa}
+  @media (prefers-color-scheme:dark){
+    .bg{fill:#0b0b0d}.tx{fill:#fafafa}.dim{fill:#8b8b95}.none{fill:#26262b}
+    .e{fill:#34d27b}.m{fill:#f5b13d}.h{fill:#f76d6d}.u{fill:#5c5c66}
+  }
+</style>
 <rect width="880" height="375" class="bg"/>
 <text x="20" y="24" class="tx" font-size="11" font-family="ui-monospace,monospace">Machine Learning</text>
-<text x="860" y="24" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">6/296</text>
+<text x="860" y="24" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">6/297</text>
 <rect x="20" y="32" width="7" height="7" rx="1.5" class="e"/>
 <rect x="29" y="32" width="7" height="7" rx="1.5" class="e"/>
 <rect x="38" y="32" width="7" height="7" rx="1.5" class="none"/>
@@ -302,6 +306,7 @@
 <rect x="146" y="59" width="7" height="7" rx="1.5" class="none"/>
 <rect x="155" y="59" width="7" height="7" rx="1.5" class="none"/>
 <rect x="164" y="59" width="7" height="7" rx="1.5" class="none"/>
+<rect x="173" y="59" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="84" class="tx" font-size="11" font-family="ui-monospace,monospace">Linear Algebra</text>
 <text x="860" y="84" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">5/73</text>
 <rect x="20" y="92" width="7" height="7" rx="1.5" class="e"/>
@@ -378,7 +383,7 @@
 <rect x="659" y="92" width="7" height="7" rx="1.5" class="none"/>
 <rect x="668" y="92" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="117" class="tx" font-size="11" font-family="ui-monospace,monospace">Deep Learning</text>
-<text x="860" y="117" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">4/326</text>
+<text x="860" y="117" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">4/345</text>
 <rect x="20" y="125" width="7" height="7" rx="1.5" class="e"/>
 <rect x="29" y="125" width="7" height="7" rx="1.5" class="e"/>
 <rect x="38" y="125" width="7" height="7" rx="1.5" class="e"/>
@@ -705,6 +710,25 @@
 <rect x="416" y="152" width="7" height="7" rx="1.5" class="none"/>
 <rect x="425" y="152" width="7" height="7" rx="1.5" class="none"/>
 <rect x="434" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="443" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="452" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="461" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="470" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="479" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="488" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="497" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="506" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="515" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="524" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="533" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="542" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="551" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="560" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="569" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="578" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="587" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="596" y="152" width="7" height="7" rx="1.5" class="none"/>
+<rect x="605" y="152" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="177" class="tx" font-size="11" font-family="ui-monospace,monospace">Reinforcement Learning</text>
 <text x="860" y="177" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">0/211</text>
 <rect x="20" y="185" width="7" height="7" rx="1.5" class="none"/>
@@ -1130,7 +1154,7 @@
 <rect x="461" y="302" width="7" height="7" rx="1.5" class="none"/>
 <rect x="470" y="302" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="327" class="tx" font-size="11" font-family="ui-monospace,monospace">Algorithms</text>
-<text x="860" y="327" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">0/47</text>
+<text x="860" y="327" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">0/48</text>
 <rect x="20" y="335" width="7" height="7" rx="1.5" class="none"/>
 <rect x="29" y="335" width="7" height="7" rx="1.5" class="none"/>
 <rect x="38" y="335" width="7" height="7" rx="1.5" class="none"/>
@@ -1178,5 +1202,6 @@
 <rect x="416" y="335" width="7" height="7" rx="1.5" class="none"/>
 <rect x="425" y="335" width="7" height="7" rx="1.5" class="none"/>
 <rect x="434" y="335" width="7" height="7" rx="1.5" class="none"/>
-<text x="20" y="366" class="dim" font-size="10.5" font-family="ui-monospace,monospace">15 of 1516 problems solved on Deep-ML  ·  top 8 categories shown</text>
+<rect x="443" y="335" width="7" height="7" rx="1.5" class="none"/>
+<text x="20" y="366" class="dim" font-size="10.5" font-family="ui-monospace,monospace">15 of 1540 problems solved on Deep-ML  ·  top 8 categories shown</text>
 </svg>
