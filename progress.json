@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:56:10.198Z",
+  "generated_at": "2026-10-16T18:52:10.602Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -153,9 +153,9 @@
       "url": "https://www.deep-ml.com/problems/104",
       "path": "problems/0104-binary-classification-with-logistic-regression",
       "first_solved_at": "2026-10-03T11:12:02.935Z",
-      "last_pushed_at": "2026-10-03T11:12:02.935Z",
+      "last_pushed_at": "2026-10-16T18:52:09.488Z",
       "language": "python",
-      "lines": 7
+      "lines": 6
     },
     "problem:50": {
       "kind": "problem",
