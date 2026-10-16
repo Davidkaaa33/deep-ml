@@ -1,8 +1,5 @@
-import torch
-import torch.nn.functional as F
-
+import math
 def softmax(scores: list[float]) -> list[float]:
-  x = torch.tensor(scores, dtype = torch.float32)
-  shifted = x - torch.max(x)
-  exp_x = torch.exp(shifted)
-  return (exp_x / torch.sum(exp_x)).tolist()
+    c = max(scores)
+    sum_e = sum(math.exp(i - c) for i in scores)
+    return [math.exp(i - c) / sum_e for i in scores]
