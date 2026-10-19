@@ -70,6 +70,53 @@ jobs:
               "\n",
               text,
           )
+          # Deep-ML rewrites README on each submission. Re-sort the generated
+          # Problems table on every push so newest first survives regeneration.
+          import json
+
+          timestamps = {}
+          progress_file = Path("progress.json")
+          if progress_file.exists():
+              try:
+                  progress = json.loads(progress_file.read_text(encoding="utf-8"))
+                  timestamps = {
+                      record["path"].strip("/"): record.get("first_solved_at", "")
+                      for record in progress.get("items", {}).values()
+                      if record.get("path")
+                  }
+              except (OSError, json.JSONDecodeError) as exc:
+                  print(f"Unable to load precise solution timestamps: {exc}")
+
+          lines = text.splitlines()
+          try:
+              problems_index = lines.index("## Problems")
+          except ValueError:
+              problems_index = -1
+
+          if problems_index >= 0:
+              header_index = next(
+                  (i for i in range(problems_index + 1, len(lines))
+                   if re.search(r"\|\s*Solved\s*\|", lines[i])),
+                  -1,
+              )
+              if header_index >= 0 and header_index + 1 < len(lines):
+                  start = header_index + 2  # Skip the Markdown separator row.
+                  end = start
+                  while end < len(lines) and lines[end].startswith("|"):
+                      end += 1
+
+                  def date_key(row):
+                      match = re.search(r"\|\s*(\d{4}-\d{2}-\d{2})\s*\|", row)
+                      path = re.search(r"\]\((problems/[^)]+)\)", row)
+                      day = match.group(1) if match else ""
+                      return timestamps.get(path.group(1), day) if path else day
+
+                  rows = lines[start:end]
+                  rows.sort(key=str.casefold)
+                  rows.sort(key=date_key, reverse=True)
+                  lines[start:end] = rows
+                  text = "\n".join(lines)
+
           text = re.sub(r"\n{3,}", "\n\n", text).rstrip() + "\n"
           readme.write_text(text, encoding="utf-8")
           PY
