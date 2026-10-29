@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:39:00.668Z",
+  "generated_at": "2026-10-29T20:46:47.450Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -492,6 +492,19 @@
       "path": "problems/0281-implement-polynomial-kernel-function",
       "first_solved_at": "2026-10-29T20:39:00.047Z",
       "last_pushed_at": "2026-10-29T20:39:00.047Z",
+      "language": "python",
+      "lines": 4
+    },
+    "problem:283": {
+      "kind": "problem",
+      "id": "283",
+      "title": "Implement Hinge Loss for SVM",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/283",
+      "path": "problems/0283-implement-hinge-loss-for-svm",
+      "first_solved_at": "2026-10-29T20:46:46.685Z",
+      "last_pushed_at": "2026-10-29T20:46:46.685Z",
       "language": "python",
       "lines": 4
     }
